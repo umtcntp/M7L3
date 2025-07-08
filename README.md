@@ -26,4 +26,4 @@ pytest
 
 ## ✍️ Yazar
 
-Kodland
+Umut Can merhaba
