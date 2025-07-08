@@ -27,4 +27,5 @@ pytest
 ## ✍️ Yazar
 
 
-Kayra Merhaba ben
+Bertuğ Orhan selamlar ben
+
