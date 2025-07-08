@@ -26,4 +26,5 @@ pytest
 
 ## ✍️ Yazar
 
-Umut Can merhaba
+
+Kayra Merhaba ben
