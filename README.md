@@ -26,5 +26,5 @@ pytest
 
 ## ✍️ Yazar
 
-Kayra Merhaba ben
 
+Kayra Merhaba ben
