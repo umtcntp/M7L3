@@ -25,5 +25,4 @@ pytest
 ```
 
 ## ✍️ Yazar
-
-Kodland
+Mehmet Kalaycı Merhaba

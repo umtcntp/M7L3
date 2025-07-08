@@ -8,10 +8,22 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
-"""
-Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
-Daha fazla test yazabilirseniz harika olur!
+def test_password_length():
+    for length in range(1, 21): 
+        assert len(generate_password(length)) == length
 
-1. Şifrenin uzunluğunun belirtilen uzunlukla eşleşip eşleşmediğini test edin  
-2. Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test edin 
-"""
+def test_password_randomness():
+    password1 = generate_password(10)
+    password2 = generate_password(10)
+    assert password1 != password2
+
+def test_password_special_characters():
+    """Şifre oluşturulurken en az bir özel karakter bulunduğunu test eder"""
+    password = generate_password(10)
+    special_characters = set(string.punctuation)
+    assert any(char in special_characters for char in password), "Şifre en az bir özel karakter içermelidir"
+    
+def test_password_uppercase():
+    """Şifre oluşturulurken en az bir büyük harf bulunduğunu test eder"""
+    password = generate_password(10)
+    assert any(char.isupper() for char in password), "Şifre en az bir büyük harf içermelidir"   
