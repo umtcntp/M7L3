@@ -16,3 +16,4 @@ def test_password_randomness():
     password1 = generate_password(10)
     password2 = generate_password(10)
     assert password1 != password2
+

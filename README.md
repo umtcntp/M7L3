@@ -26,7 +26,6 @@ pytest
 
 ## ✍️ Yazar
 
-Kodland
-
 
 Bertuğ Orhan selamlar ben
+
