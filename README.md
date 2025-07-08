@@ -26,4 +26,4 @@ pytest
 
 ## ✍️ Yazar
 
-Emirhan Kahraman
+Emirhan Kahraman selamlar
