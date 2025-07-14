@@ -29,4 +29,4 @@ pytest
 Kodland
 
 
-Bertuğ Orhan selamlar ben
+Bertuğ Orhan selamlar ben fenerleyim 
