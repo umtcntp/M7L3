@@ -26,5 +26,7 @@ pytest
 
 ## ✍️ Yazar
 
-Kayra Merhaba ben
+Merhaba ben Kayra
+
+Şu anda en son htmlcov ve test_report.html dosyaları projeye eklendi.
 
